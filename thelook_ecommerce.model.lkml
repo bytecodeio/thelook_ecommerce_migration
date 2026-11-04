@@ -9,6 +9,7 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
 # test comment
 #test comment 2 PR
 # test AD
+#test CI
 explore: order_items {
   join: orders {
     relationship: many_to_one
